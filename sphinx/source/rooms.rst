@@ -333,7 +333,7 @@ There is one store variable used by replay mode:
 
 .. var:: _in_replay
 
-   When in replay mode, this is sent to the label at which replay
+   When in replay mode, this is set to the label at which replay
    mode was started. Outside of replay mode, this is None.
 
 In addition, :var:`config.enter_replay_transition` and
